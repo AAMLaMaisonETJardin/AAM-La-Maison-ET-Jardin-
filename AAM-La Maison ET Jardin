@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AAM La Maison et Jardin - Entreprise de construction et de rénovation en France.">
+  <title>AAM La Maison et Jardin</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #2b3a42; color: white; padding: 1em 2em; text-align: center; }
+    nav { background: #1c2b33; color: white; display: flex; justify-content: center; gap: 2em; padding: 0.5em; }
+    nav a { color: white; text-decoration: none; }
+    section { padding: 2em; max-width: 1000px; margin: auto; }
+    h1, h2 { color: #2b3a42; }
+    footer { background: #2b3a42; color: white; text-align: center; padding: 1em; }
+    .gallery img { width: 100%; max-width: 300px; margin: 1em; border-radius: 10px; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1em; }
+    .service-card { background: white; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AAM La Maison et Jardin</h1>
+    <p>شركة إنشاءات وإصلاحات عامة - Bâtiment et Rénovation</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos | من نحن</a>
+    <a href="#services">Services | خدماتنا</a>
+    <a href="#gallery">Galerie | معرض الصور</a>
+    <a href="#contact">Contact | اتصل بنا</a>
+  </nav>
+
+  <section id="about">
+    <h2>من نحن | À propos de nous</h2>
+    <p>
+      AAM La Maison et Jardin est une entreprise spécialisée dans les travaux de construction, de rénovation et de réparation d'urgence. <br>
+      نحن نقدم جميع خدمات البناء والتصليح مثل: الدهانات، البلاط، الأرضيات، السباكة، الكهرباء، أعمال العزل والخرسانة.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>خدماتنا | Nos services</h2>
+    <div class="services">
+      <div class="service-card">🛠️ إنشاءات عامة<br>Construction générale</div>
+      <div class="service-card">🚿 سباكة<br>Plomberie</div>
+      <div class="service-card">💡 كهرباء<br>Électricité</div>
+      <div class="service-card">🎨 دهانات وطلاء<br>Peinture</div>
+      <div class="service-card">🧱 بلاط وأرضيات<br>Carrelage et revêtements</div>
+      <div class="service-card">❄️ عزل حراري وصوتي<br>Isolation thermique et phonique</div>
+      <div class="service-card">⏱️ إصلاحات طارئة<br>Réparations urgentes</div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>معرض الصور | Galerie</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Travail+1" alt="Travail 1">
+      <img src="https://via.placeholder.com/300x200?text=Travail+2" alt="Travail 2">
+      <img src="https://via.placeholder.com/300x200?text=Travail+3" alt="Travail 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>اتصل بنا | Contact</h2>
+    <p>
+      📞 Téléphone / الهاتف: 06 26 12 75 05<br>
+      📧 Email: aam.lamaison.etjardin01@gmail.com<br>
+      📍 Adresse: 59 Boulevard Pasteur, 93320 Les Pavillons-sous-Bois, France
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 AAM La Maison et Jardin | Tous droits réservés
+  </footer>
+</body>
+</html>
